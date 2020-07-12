@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: K2P4.14简化版
+name: K2P5.4简化版
 
 on:
   repository_dispatch:
@@ -16,17 +16,17 @@ on:
     branches:
       - master
     paths:
-      - 'k2p1.config'
+      - 'k2p3.config'
 #  schedule:
 #    - cron: 0 8 * * 5
   watch:
     types: started
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/openwrt
-  REPO_BRANCH: lede-17.01
+  REPO_URL: https://github.com/coolsnowwolf/lede
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: k2p1.config
+  CONFIG_FILE: k2p3.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part2.sh
   SSH_ACTIONS: false
