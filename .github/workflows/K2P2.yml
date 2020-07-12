@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: K2P4.14标准版
+name: K2P5.4标准版
 
 on:
   repository_dispatch:
